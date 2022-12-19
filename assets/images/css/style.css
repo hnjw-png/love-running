@@ -62,6 +62,24 @@ h1, h2 {
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url(../hero-image.webp) no-repeat center center;    
+    background: url(../hero-image.webp) no-repeat center center;   
+     
+   /*creates zoom effect on homepage*/
+    animation-name: hero-zoom;
+    animation-duration: 5s;
 }
- 
+
+ /*creates level of zoom*/
+@keyframes hero-zoom {
+    from 
+    {
+        transform: scale(1);
+    }
+    to
+    {
+        transform: scale(1.1);
+
+    }
+
+    }
+}
