@@ -57,19 +57,18 @@ h1, h2 {
     height: 600px;
     width: 100%;
     overflow: hidden;
+    position: relative; 
 }
 
 #hero-image {
     height: 600px;
     width: 100%;
     background: url(../hero-image.webp) no-repeat center center;   
-     
-   /*creates zoom effect on homepage*/
     animation-name: hero-zoom;
     animation-duration: 5s;
+    animation-fill-mode: forwards;
 }
 
- /*creates level of zoom*/
 @keyframes hero-zoom {
     from 
     {
@@ -81,5 +80,20 @@ h1, h2 {
 
     }
 
-    }
+}
+
+
+#cover-text {
+    font-size: 130%;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    width: 300px;
+    height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+    background-color: rgba(241, 109, 10, .7);
+    bottom: 30px;
+    right: 150px;
+    position: absolute;
 }
