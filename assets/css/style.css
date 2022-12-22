@@ -65,7 +65,7 @@ h1, h2 {
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url(../hero-image.webp) no-repeat center center;   
+    background: url(../css/images/hero-image.webp) no-repeat center center;   
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
@@ -168,4 +168,10 @@ hr {
     border-width: 1px;
     border-radius: 50%;
     margin: 0 auto;
+}
+
+#circle-cover-bg {
+    background: url('../css/images/ethos-center-image.jpg') no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
 }
