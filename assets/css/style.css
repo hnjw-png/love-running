@@ -273,6 +273,20 @@ footer {
         line-height: 25px;
     }
 
+    #cover-text {
+        left: 0;
+    }
+
+    #club-ethos {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    .left-about-heading, .right-about-heading {
+        width: inherit;
+    }
+
 
  
 
