@@ -232,7 +232,7 @@ footer {
     width: 100%;
 }
 
-@media screen and (max-width:1200px;) {
+@media screen and (max-width:1200px) {
     #club-ethos {
         width: 65%;
         height: 1200px;
@@ -287,8 +287,17 @@ footer {
         width: inherit;
     }
 
+    .left-about-heading hr .right-about-heading h2 {
+        width: 100%;
+        text-align: center;
+    }
 
- 
-
+    .left-about-heading p .right-about-heading p {
+        text-align: center;
+        padding: 20px;
+    }
     
+    #photos {
+        column-count: 3;
+    }
 }
